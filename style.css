@@ -1,0 +1,152 @@
+
+
+/* styles for layout*/
+body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+
+/* styles for nav*/
+    nav {
+      background: linear-gradient(90deg, #1976d2, #00c6ff);
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+    position :sticky;
+    top:0;
+    }
+
+
+    .logo {
+      font-size: 1.7rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+/*styles for ul links*/
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+
+
+    nav ul li a:hover, nav ul li a.active {
+      background: #fff;
+      color: #1976d2;
+    }
+
+/*style for profile section*/
+
+.profile-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      margin: 60px auto 0 auto;
+      max-width: 900px;
+      padding: 40px 20px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+/*style for profile image*/
+
+.profile-img {
+      width: 220px;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 16px;
+      border: 3px solid #1976d2;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+
+/*style for info*/
+    .profile-info h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.5rem;
+      color: #1976d2;
+    }
+
+
+/*style for info on profile*/
+
+    .profile-info p {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 18px;
+    }
+
+/*style for button*/
+
+    .profile-info .btn {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+
+/*style for hover button*/
+
+    .profile-info .btn:hover {
+      background: #00c6ff;
+      color: #1976d2;
+    }
+
+
+
+/*image size*/
+
+
+    .profile-img {
+        width: 160px;
+        height: 200px;
+      }
+
+.second-image {
+  width: 600px; /* Set the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Make it a block element */
+  margin: 20px auto; /* Center the image horizontally and add vertical spacing */
+  border: 2px solid #ccc; /* Optional border */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+
+
+
+.profile-section h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.5rem;
+      color: #1976d2;
+    }
